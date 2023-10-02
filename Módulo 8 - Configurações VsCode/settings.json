@@ -1,0 +1,23 @@
+{
+    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+    "editor.fontFamily": "'Droid Sans Mono', Menlo, consolas",
+    "editor.fontSize": 20,
+    "explorer.compactFolders": false,
+
+    "code-runner.executorMap": {
+        "python": "cls ; python -u",
+        "c" : "cls ; gcc $fileName -o $fileNameWithoutExt ; ./$fileNameWithoutExt"
+    },
+    "code-runner.runInTerminal": true,
+    "code-runner.ignoreSelection": true,
+
+    "editor.minimap.enabled": false,
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "python.defaultInterpreterPath": "python",
+    "editor.comments.ignoreEmptyLines": false,
+    "cmake.configureOnOpen": true,
+    "C_Cpp.default.compilerPath": "",
+    "window.zoomLevel": 2,
+}

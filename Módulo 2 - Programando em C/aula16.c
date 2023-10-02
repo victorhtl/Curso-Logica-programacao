@@ -8,6 +8,7 @@ int main(){
     int num = 10000;
     char num2;
 
+    // Converto o int em um char
     num2 = (char) num;
 
     printf("%d\n", num);

@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 // Operador ternário -> ?
+// Operação de if e else na mesma linha
 
 int main(){
 

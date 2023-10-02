@@ -8,8 +8,11 @@
 
 int main(){
     int a = 1; 
+    int b = 10;
 
-    printf("%u", ~a);
+    printf("%u\n", a ^ b);
+    printf("%u\n", a ^ b);
+    printf("%u\n", sizeof(~a));
 
     return 0;
 }
