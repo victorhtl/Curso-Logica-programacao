@@ -1,23 +1,21 @@
 #include <stdio.h>
 
-// Declaração de arrays
-// Buffer no scanf
-// Limitando o tamanho da string no console
-// Strings com espaços no scanf 
+/*
+    string -> cadeia de caracteres
+
+    "A" = 'A' + '\0'
+    "Ola" = {'O', 'l', 'a', '\0'};
+
+    %s -> formatador de string
+*/
 
 int main(){
-    int vetor[64]; // Sem inicializar
-    int valores[2] = {14, 4000, 50}; // Array inicializado
+    //char saudacao[] = {'O', 'l', 'a', '\0'};
+    char saudacao[] = "Ola";
+    char string[256];
 
-    char string[] = "Bom dia";
-    char string2[] = {'B', 'o', 'm', ' ', 'd', 'i', 'a', '\0'};
+    printf("Insira alguma frase: ");
+    gets(string);
 
-    // string -> "A" = 'A' + '\0';
-    // caracter -> 'A' = 0100 0001
-    // "A" != 'A'
-
-    //printf("%s\n", string);
-    //printf("%s", string2);
-
-    return 0;
+    printf("%s", string);
 }

@@ -1,15 +1,22 @@
 #include <stdio.h>
 
-// string -> corda
-//              0   1   2   3   4
-// Ola mundo = 'O' 'l' 'a' ' ' 'm' 'u' 'n' 'd' 'o' '\0'
+/*
+    array -> arranjo de memória
 
-// %s -> string
+    É um endereço de memória
+    Acessa pelo índice
+*/
 
 int main(){
-    char string[] = "Ola mundo"; // '\0'
+    //char var[]; // Errado
+    char var[16];
+    int numeros[64] = {5000, 320, 0};
 
-    printf("%s", string);
+    // Acessar valores:
+    numeros[20] = 70;
 
-    return 0;
+    int *p = numeros;
+    p++;
+
+    printf("%d", *p);
 }

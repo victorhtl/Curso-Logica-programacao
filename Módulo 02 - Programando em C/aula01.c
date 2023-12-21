@@ -1,29 +1,27 @@
-// Declaração de variáveis
-// char -> 8 bits = 1 byte = 256
-// int -> 32 bits = 4 bytes = 
-// float
-
 #include <stdio.h>
 
-int main(){
-    char variavel; // Alocar em memória um espaço para esta variável
-    int vari4avel2; // Alocar 4 bytes
+// char -> 1 byte
+// int  -> 4 bytes
+// float -> 4 bytes, ponto flutuante (mais preciso)
 
-    char nome; // Case sensitive  
-    char Nome;
-    char idade;
+int main(){
+    char variavel;   // 1 byte
+    int preco;       // 4 bytes
+    //char preço;    // errado
+    //char variável; // errado
+
+    int idade;
     char endereco;
 
-    //char ônibus; // Isso aqui é errado
-    char onibus; // Isso aqui é certo
+    char variavel1;
+    //char 1variavel; // errado
+    char nomeDaPessoa;
+    char nome_da_pessoa;
+    char NOME;
+    char Nome;
 
-    int soma_dois_numeros; // Isso é o jeito certo
-    //int soma dois numero; // Jeito errado
-    //int soma@dois@numeros; // Jeito errado
-    int somaDoisNumeros; //Jeito certo
-
-    //char 2numero; // Jeito errado
-
+    //int soma dois numeros; // errado
+    //int some@dois&numeros; // errado
 
     return 0;
 }

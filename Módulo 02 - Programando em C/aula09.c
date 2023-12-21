@@ -1,16 +1,22 @@
 #include <stdio.h>
 
-// Ponteiro -> um tipo de dado -> armazena endereços
-// char, int, ponteiro
-
-// & -> o endereço de
-// * -> o valor de 
-
 int main(){
-    char a = 5; // Isso aqui é uma variável
+    int nota1, nota2, nota3, media;
 
-    char *b = &a; // Isso aqui é um ponteiro
+    printf("****Calculo de media****\n");
 
-    printf("%d", *b);
+    printf("Nota 1: ");
+    scanf("%d", &nota1);
+
+    printf("Nota 2: ");
+    scanf("%d", &nota2);
+
+    printf("Nota 3: ");
+    scanf("%d", &nota3);
+
+    media = (nota1 + nota2 + nota3)/3;
+
+    printf("Media: %d", media);
+
     return 0;
 }

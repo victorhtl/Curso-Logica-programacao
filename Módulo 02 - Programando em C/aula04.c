@@ -1,8 +1,19 @@
 #include <stdio.h>
 
-int main(){
-    unsigned int valor = 257;
+/*
+    Ponteiros -> variáveis que armazenam
+                 enderecos
 
-    printf("%d", valor);
-    return 0;
+    * -> valor de 
+    & -> endereço de
+*/
+
+int main(){
+    int a = 10; // Isto é uma variável
+
+    int *p = &a; // Isto é um ponteiro
+
+    printf("Endereco de a = %X\n", &a);
+    printf("p = %X\n", p);
+    printf("Valor de p = %d\n", *p); // (aponta para a)
 }

@@ -1,17 +1,18 @@
 #include <stdio.h>
 
-// char -> 1 byte; 255
-// int -> 4 bytes;
+// = -> operador de atribuição
 
-// Placeholder
-// %d
+// placeholder -> mecanismo de formatação
 
 int main(){
-    char valor = 200; // Estou atribuindo 5 à valor
-    int valor2 = 5000;
+    //char binario = 0b00011110;
+    //char hex     = 0xA2;
 
-    printf("%d\n", valor);
-    printf("%d", valor2);
+    //signed int valor1 = 3000000000; // 10000000 // positivo ou negativo
+    char valor2 = 257; // 1 00000001 = 255 + 2
 
-    return 0;
+    float valor_decimal = 200.256;
+
+    printf("Valor1 = %d\n", valor2);
+    printf("Valor decimal = %.f\n", valor_decimal);
 }

@@ -1,9 +1,17 @@
 #include <stdio.h>
 
 int main(){
-    char letra = 255;
-    int numero = 10000000;
+    int numero;
 
-    printf("%d\n", letra); 
-    printf("%d", numero);
+    printf("Digite algum numero: ");
+    scanf("%d", &numero);
+
+    numero++;
+    printf("Sucessor: %d\n", numero);
+
+    numero--; 
+    numero--; 
+    printf("Antecessor: %d", numero);
+
+    return 0;
 }

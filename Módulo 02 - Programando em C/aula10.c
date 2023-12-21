@@ -1,20 +1,15 @@
 #include <stdio.h>
 
-// arrays = matriz unidimensional = vetor
+// 'A' = 65
 
 int main(){
-    unsigned int valores[16];
+    char valor;
 
-    valores[0] = 5;
-    valores[1] = 6;
-    valores[10] = 200;
+    printf("Digite um caractere: ");
+    scanf("%c", &valor);
 
-    //printf("Digite um numero ");
-    //scanf("%d", &valores[2]);
-    //printf("%d", valores[2]);
+    valor = valor + 32;
 
-    printf("%d", sizeof(valores));
+    printf("%c", valor);
 
-
-    return 0;
 }

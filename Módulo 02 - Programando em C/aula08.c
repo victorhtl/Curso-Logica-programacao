@@ -1,19 +1,15 @@
 #include <stdio.h>
 
-// & -> o endereço de
-// &input -> o endereço de input
-// input -> o valor de input
-// scanf()
-
 int main(){
-    char input;
+    float temperatura_fah, temperatura_cel;
 
-    printf("Digite um valor ");
+    printf("****Conversor de temperatura****\n");
+    printf("Digite a temperatura em Fahrenheit: ");
+    scanf("%f", &temperatura_fah);
 
-    // Vai receber uma entrada pelo teclado
-    scanf("%d", &input); 
-    // A partir daqui, a variavel input terá um valor
+    temperatura_cel = (temperatura_fah-32.)/1.8;
 
-    printf("O valor que voce digitou foi %c\n", input);
+    printf("Celsius: %.2f", temperatura_cel);
+
     return 0;
 }

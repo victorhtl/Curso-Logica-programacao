@@ -1,31 +1,34 @@
 #include <stdio.h>
 
-// placeholder
-// %d -> numero
-// %c -> caracter
-// %x -> hexadecimal
-
-// char -> caracter
-// int -> inteiro
+/* Operadores aritméticos
++
+-
+*
+/
+++ (incremento de uma unidade)
+-- (decremento de uma unidade)
+*/
 
 int main(){
-    char valor = 126; // 0111 1110
-    char valor2 = 127;
-    char valor3 = 128; // 1000 0000
-    char valor4 = 129; 
-    char valor5 = 130;
-    char letra = 128; // 0110 0001
-    int Valor = 40;
+    int valor1 = 20; // Declarada e inicializada
+    int valor2 = 40; // Declarada e inicializada
+    int valor3 = 2;  // Declarada e inicializada
 
-    /*
-    printf("%c\n", valor);
-    printf("%c\n", valor2);
-    printf("%c\n", valor3);
-    printf("%c\n", valor4);
-    printf("%c", valor5);
-    */
+    int resultado;   // Declarada e não inicializada
 
-    printf("%x", letra);
+    resultado = valor1 + valor2;
 
-    return 0;
+    resultado++; // incrementando resultado (60+1)
+
+    printf("Resultado = %d\n", resultado);
+
+    resultado--; // decrementa (61 - 1)
+    resultado--; // decrementa (60 - 1)
+
+    printf("Resultado = %d\n", resultado);
+
+    resultado = (valor1 + valor2) * valor3;
+
+    printf("Resultado = %d\n", resultado);
+
 }
