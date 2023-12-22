@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-// identação
-
 int main(){
     int usuario, senha;
 
